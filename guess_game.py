@@ -25,6 +25,7 @@ def compare_results(generated_number, user_number):
         return False
 
 
+
 def play_guess(difficulty):
     generated_number = generate_number(difficulty)
     user_number = get_guess_from_user(difficulty)
